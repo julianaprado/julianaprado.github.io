@@ -98,6 +98,7 @@ h6,
   visibility: hidden;
   opacity: 0;
   transition: 0.3s all ease-in-out;
+  border-radius: 22px;
 }
 
 .item .item-wrap img {
@@ -346,7 +347,7 @@ h6,
 --------------------------------------------------------------*/
 /* Custom Navmenu */
 .custom-navmenu {
-  background: #0d1e2d;
+  background: #1c1c1e;
 }
 
 .custom-navmenu .custom-menu,
@@ -510,4 +511,17 @@ h6,
 
 .social a:hover {
   color: #000;
+}
+
+.tweet {
+  gap: 15px;
+}
+
+.img-fluid {
+  border-radius: 22px;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+  border-radius: 22px;
 }
